@@ -1,0 +1,132 @@
+/* General styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9fafb;
+    color: #333;
+  }
+  
+  /* Container */
+  .container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: #ffffff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  /* Header styling */
+  h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #4a5568;
+    margin-bottom: 0.5rem;
+  }
+  
+  p {
+    font-size: 0.875rem;
+    color: #718096;
+  }
+  
+  /* Posts */
+  .posts ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .posts li {
+    background: #edf2f7;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .posts h3 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #2d3748;
+  }
+  
+  .posts p {
+    font-size: 1rem;
+    color: #4a5568;
+  }
+  
+  /* Form */
+  form {
+    margin-top: 2rem;
+    padding: 1rem;
+    background: #f7fafc;
+    border-radius: 8px;
+    border: 1px solid #e2e8f0;
+  }
+  
+  form h3 {
+    font-size: 1.5rem;
+    color: #4a5568;
+    margin-bottom: 1rem;
+  }
+  
+  form label {
+    font-size: 0.875rem;
+    color: #4a5568;
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 4px;
+    background: #ffffff;
+  }
+  
+  form button {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #3182ce;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  form button:hover {
+    background-color: #2b6cb0;
+  }
+  
+  form button:disabled {
+    background-color: #a0aec0;
+    cursor: not-allowed;
+  }
+  
+  /* Responsive */
+  @media (max-width: 600px) {
+    .container {
+      padding: 0.5rem;
+    }
+  
+    form h3 {
+      font-size: 1.25rem;
+    }
+  
+    form input,
+    form textarea {
+      font-size: 0.875rem;
+    }
+  
+    form button {
+      font-size: 0.875rem;
+    }
+  }
+  
